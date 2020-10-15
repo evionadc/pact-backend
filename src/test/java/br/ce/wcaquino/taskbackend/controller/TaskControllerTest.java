@@ -5,14 +5,13 @@ import java.time.LocalDate;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
 
-import br.ce.wcaquino.taskbackend.controller.TaskController;
 import br.ce.wcaquino.taskbackend.model.Task;
 import br.ce.wcaquino.taskbackend.repo.TaskRepo;
 import br.ce.wcaquino.taskbackend.utils.ValidationException;
-
-import org.mockito.Mock;
-import org.mockito.*;
 
 public class TaskControllerTest {
 
